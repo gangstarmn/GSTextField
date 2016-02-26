@@ -1,4 +1,4 @@
-s.name         = "GSTextField"
+  s.name         = "GSTextField"
   s.version      = "0.0.2"
   s.summary      = "GSTextField is a error view with UITextField"
   s.description  = <<-DESC
