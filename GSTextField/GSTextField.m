@@ -9,6 +9,7 @@
 #import "GSTextField.h"
 #import "GSNameValidator.h"
 #import "GSLengthValidator.h"
+#import "UIImage+Bundle.h"
 @interface GSTextField () {
     BOOL isExpanded;
 }
@@ -73,7 +74,7 @@ static UIFont *errorTextFont = nil;
 - (UIImageView *)errorBGImageView {
     if (!_errorBGImageView) {
         _errorBGImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 2, self.errorView.bounds.size.width-self.errorView.bounds.size.height-3, self.bounds.size.height-4)];
-        UIImage *errorBGImage = [[UIImage imageNamed:@"bs_errorBG"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
+        UIImage *errorBGImage = [[UIImage imageInBundleNamed:@"bs_errorBG"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
         _errorBGImageView.image = errorBGImage;
         _errorBGImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         _errorBGImageView.tintColor = [self mainTintColor];
@@ -85,7 +86,7 @@ static UIFont *errorTextFont = nil;
 - (UIButton *)errorButton {
     if (!_errorButton) {
         _errorButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_errorButton setImage:[UIImage imageNamed:@"bs_errorIcon"] forState:UIControlStateNormal];
+        [_errorButton setImage:[UIImage imageInBundleNamed:@"bs_errorIcon"] forState:UIControlStateNormal];
         _errorButton.tintColor = [self mainTintColor];
         _errorButton.frame = CGRectMake(self.errorView.bounds.size.width-self.errorView.bounds.size.height, 0, self.errorView.bounds.size.height, self.errorView.bounds.size.height);
         [_errorButton addTarget:self action:@selector(errorButtonAction) forControlEvents:UIControlEventTouchUpInside];

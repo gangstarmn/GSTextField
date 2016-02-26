@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "GSTextField"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "GSTextField is a error view with UITextField"
   s.description  = <<-DESC
                     Алдаа харуулдаг, Мөн алдааны мэссэж харуулдаг UITextfield.

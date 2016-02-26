@@ -14,6 +14,9 @@
 		6DE088891C80285600AF4551 /* GSNameValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE088841C80285600AF4551 /* GSNameValidator.m */; };
 		6DE0888A1C80285600AF4551 /* GSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE088851C80285600AF4551 /* GSTextField.m */; };
 		6DE0888D1C803BFB00AF4551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE0888C1C803BFB00AF4551 /* Images.xcassets */; };
+		6DE0890D1C80553000AF4551 /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE0890B1C80553000AF4551 /* UIImage+Bundle.h */; };
+		6DE0890E1C80553000AF4551 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0890C1C80553000AF4551 /* UIImage+Bundle.m */; };
+		6DE089111C8057DF00AF4551 /* GSTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DE089101C8057DF00AF4551 /* GSTextField.bundle */; };
 		F32F5B3F8C33969080563E72 /* libPods-GSTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5DC010EFEF3B62203ED7C /* libPods-GSTextField.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,9 @@
 		6DE088851C80285600AF4551 /* GSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTextField.m; sourceTree = "<group>"; };
 		6DE0888B1C80288D00AF4551 /* GSTextFieldKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTextFieldKit.h; sourceTree = "<group>"; };
 		6DE0888C1C803BFB00AF4551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DE0890B1C80553000AF4551 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
+		6DE0890C1C80553000AF4551 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		6DE089101C8057DF00AF4551 /* GSTextField.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GSTextField.bundle; sourceTree = "<group>"; };
 		753F27725F3EED1C5B5B28B8 /* Pods-GSTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSTextField/Pods-GSTextField.release.xcconfig"; sourceTree = "<group>"; };
 		9DF5DC010EFEF3B62203ED7C /* libPods-GSTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E936CEB7A2FBFDDB8CFD56A5 /* Pods-GSTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSTextField/Pods-GSTextField.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,17 +72,28 @@
 		6DE088781C80271D00AF4551 /* GSTextField */ = {
 			isa = PBXGroup;
 			children = (
+				6DE0890F1C8057DF00AF4551 /* Localizations */,
+				6DE0890B1C80553000AF4551 /* UIImage+Bundle.h */,
+				6DE0890C1C80553000AF4551 /* UIImage+Bundle.m */,
 				6DE088811C80285600AF4551 /* GSLengthValidator.h */,
 				6DE088821C80285600AF4551 /* GSLengthValidator.m */,
 				6DE088831C80285600AF4551 /* GSNameValidator.h */,
 				6DE088841C80285600AF4551 /* GSNameValidator.m */,
-				6DE088851C80285600AF4551 /* GSTextField.m */,
 				6DE088791C80271D00AF4551 /* GSTextField.h */,
+				6DE088851C80285600AF4551 /* GSTextField.m */,
 				6DE0887B1C80271D00AF4551 /* Info.plist */,
 				6DE0888B1C80288D00AF4551 /* GSTextFieldKit.h */,
 				6DE0888C1C803BFB00AF4551 /* Images.xcassets */,
 			);
 			path = GSTextField;
+			sourceTree = "<group>";
+		};
+		6DE0890F1C8057DF00AF4551 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				6DE089101C8057DF00AF4551 /* GSTextField.bundle */,
+			);
+			path = Localizations;
 			sourceTree = "<group>";
 		};
 		E1DD242F4A85196B799F8337 /* Pods */ = {
@@ -103,6 +120,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE0890D1C80553000AF4551 /* UIImage+Bundle.h in Headers */,
 				6DE0887A1C80271D00AF4551 /* GSTextField.h in Headers */,
 				6DE088881C80285600AF4551 /* GSNameValidator.h in Headers */,
 				6DE088861C80285600AF4551 /* GSLengthValidator.h in Headers */,
@@ -169,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE0888D1C803BFB00AF4551 /* Images.xcassets in Resources */,
+				6DE089111C8057DF00AF4551 /* GSTextField.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE088871C80285600AF4551 /* GSLengthValidator.m in Sources */,
+				6DE0890E1C80553000AF4551 /* UIImage+Bundle.m in Sources */,
 				6DE0888A1C80285600AF4551 /* GSTextField.m in Sources */,
 				6DE088891C80285600AF4551 /* GSNameValidator.m in Sources */,
 			);
