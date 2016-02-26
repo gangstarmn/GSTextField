@@ -16,4 +16,4 @@ s.name         = "GSTextField"
   
   s.framework = 'UIKit'
   s.requires_arc = true
-  s.dependency 'InputValidators', '~> 0.1'
+  s.dependency 'InputValidators'
