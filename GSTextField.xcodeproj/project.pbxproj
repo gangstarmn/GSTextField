@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DE0887A1C80271D00AF4551 /* GSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE088791C80271D00AF4551 /* GSTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DE088861C80285600AF4551 /* GSLengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE088811C80285600AF4551 /* GSLengthValidator.h */; };
+		6DE088871C80285600AF4551 /* GSLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE088821C80285600AF4551 /* GSLengthValidator.m */; };
+		6DE088881C80285600AF4551 /* GSNameValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE088831C80285600AF4551 /* GSNameValidator.h */; };
+		6DE088891C80285600AF4551 /* GSNameValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE088841C80285600AF4551 /* GSNameValidator.m */; };
+		6DE0888A1C80285600AF4551 /* GSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE088851C80285600AF4551 /* GSTextField.m */; };
+		8CB05F4613429BCA85F7FC08 /* libPods-GSTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3B8131F6031B650EB3685E /* libPods-GSTextField.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D3B8131F6031B650EB3685E /* libPods-GSTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE088761C80271D00AF4551 /* GSTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE088791C80271D00AF4551 /* GSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTextField.h; sourceTree = "<group>"; };
+		6DE0887B1C80271D00AF4551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE088811C80285600AF4551 /* GSLengthValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLengthValidator.h; sourceTree = "<group>"; };
+		6DE088821C80285600AF4551 /* GSLengthValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLengthValidator.m; sourceTree = "<group>"; };
+		6DE088831C80285600AF4551 /* GSNameValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNameValidator.h; sourceTree = "<group>"; };
+		6DE088841C80285600AF4551 /* GSNameValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSNameValidator.m; sourceTree = "<group>"; };
+		6DE088851C80285600AF4551 /* GSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTextField.m; sourceTree = "<group>"; };
+		6DE0888B1C80288D00AF4551 /* GSTextFieldKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTextFieldKit.h; sourceTree = "<group>"; };
+		852FA046599C3AD938388230 /* Pods-GSTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSTextField/Pods-GSTextField.release.xcconfig"; sourceTree = "<group>"; };
+		BC75776E1877D11626605DC1 /* Pods-GSTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSTextField/Pods-GSTextField.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DE088721C80271D00AF4551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB05F4613429BCA85F7FC08 /* libPods-GSTextField.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE3A19C8184C61CF9381DF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC75776E1877D11626605DC1 /* Pods-GSTextField.debug.xcconfig */,
+				852FA046599C3AD938388230 /* Pods-GSTextField.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DE0886C1C80271D00AF4551 = {
+			isa = PBXGroup;
+			children = (
+				6DE088781C80271D00AF4551 /* GSTextField */,
+				6DE088771C80271D00AF4551 /* Products */,
+				2CE3A19C8184C61CF9381DF1 /* Pods */,
+				8F5D9C466B482E3DA522DCF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DE088771C80271D00AF4551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DE088761C80271D00AF4551 /* GSTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DE088781C80271D00AF4551 /* GSTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6DE088811C80285600AF4551 /* GSLengthValidator.h */,
+				6DE088821C80285600AF4551 /* GSLengthValidator.m */,
+				6DE088831C80285600AF4551 /* GSNameValidator.h */,
+				6DE088841C80285600AF4551 /* GSNameValidator.m */,
+				6DE088851C80285600AF4551 /* GSTextField.m */,
+				6DE088791C80271D00AF4551 /* GSTextField.h */,
+				6DE0887B1C80271D00AF4551 /* Info.plist */,
+				6DE0888B1C80288D00AF4551 /* GSTextFieldKit.h */,
+			);
+			path = GSTextField;
+			sourceTree = "<group>";
+		};
+		8F5D9C466B482E3DA522DCF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B8131F6031B650EB3685E /* libPods-GSTextField.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6DE088731C80271D00AF4551 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE0887A1C80271D00AF4551 /* GSTextField.h in Headers */,
+				6DE088881C80285600AF4551 /* GSNameValidator.h in Headers */,
+				6DE088861C80285600AF4551 /* GSLengthValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DE088751C80271D00AF4551 /* GSTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE0887E1C80271D00AF4551 /* Build configuration list for PBXNativeTarget "GSTextField" */;
+			buildPhases = (
+				5B574AF9AD52B847D4D2C995 /* Check Pods Manifest.lock */,
+				6DE088711C80271D00AF4551 /* Sources */,
+				6DE088721C80271D00AF4551 /* Frameworks */,
+				6DE088731C80271D00AF4551 /* Headers */,
+				6DE088741C80271D00AF4551 /* Resources */,
+				472AECE5F5E6D6B300E369AC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSTextField;
+			productName = GSTextField;
+			productReference = 6DE088761C80271D00AF4551 /* GSTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DE0886D1C80271D00AF4551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Gantulga;
+				TargetAttributes = {
+					6DE088751C80271D00AF4551 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DE088701C80271D00AF4551 /* Build configuration list for PBXProject "GSTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DE0886C1C80271D00AF4551;
+			productRefGroup = 6DE088771C80271D00AF4551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DE088751C80271D00AF4551 /* GSTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DE088741C80271D00AF4551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		472AECE5F5E6D6B300E369AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSTextField/Pods-GSTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B574AF9AD52B847D4D2C995 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DE088711C80271D00AF4551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE088871C80285600AF4551 /* GSLengthValidator.m in Sources */,
+				6DE0888A1C80285600AF4551 /* GSTextField.m in Sources */,
+				6DE088891C80285600AF4551 /* GSNameValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DE0887C1C80271D00AF4551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DE0887D1C80271D00AF4551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DE0887F1C80271D00AF4551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC75776E1877D11626605DC1 /* Pods-GSTextField.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GSTextField/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.airbook.GSTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6DE088801C80271D00AF4551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852FA046599C3AD938388230 /* Pods-GSTextField.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GSTextField/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.airbook.GSTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DE088701C80271D00AF4551 /* Build configuration list for PBXProject "GSTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE0887C1C80271D00AF4551 /* Debug */,
+				6DE0887D1C80271D00AF4551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE0887E1C80271D00AF4551 /* Build configuration list for PBXNativeTarget "GSTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE0887F1C80271D00AF4551 /* Debug */,
+				6DE088801C80271D00AF4551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DE0886D1C80271D00AF4551 /* Project object */;
+}
