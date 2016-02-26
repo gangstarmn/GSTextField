@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "GSTextField"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "GSTextField is a error view with UITextField"
   s.description  = <<-DESC
                     Алдаа харуулдаг, Мөн алдааны мэссэж харуулдаг UITextfield.
@@ -9,7 +9,7 @@
   s.license      = "MIT"
   s.author             = { "Gantulga" => "gangstarmn@gmail.com" }
   s.platform = :ios, '8.0'
-  s.source = { :git => 'hhttps://github.com/gangstarmn/GSTextField.git', :tag => "#{s.version}" }
+  s.source = { :git => 'https://github.com/gangstarmn/GSTextField.git', :tag => "#{s.version}" }
   
   s.source_files = "GSTextField/**/*.{h,m}"
   
