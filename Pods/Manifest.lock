@@ -1,0 +1,10 @@
+PODS:
+  - InputValidators (1.0.0)
+
+DEPENDENCIES:
+  - InputValidators (~> 1.0)
+
+SPEC CHECKSUMS:
+  InputValidators: b278d3042d23893533d688cfb1563370d4cb184e
+
+COCOAPODS: 0.39.0
