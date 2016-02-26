@@ -17,4 +17,4 @@
   
   s.framework = 'UIKit'
   s.requires_arc = true
-  s.dependency 'InputValidators'
+  s.dependency 'InputValidators', '1.0'
