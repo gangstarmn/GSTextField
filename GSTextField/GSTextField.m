@@ -10,6 +10,8 @@
 #import "GSNameValidator.h"
 #import "GSLengthValidator.h"
 #import "UIImage+Bundle.h"
+#import <SCViewShaker/UIView+Shake.h>
+
 @interface GSTextField () {
     BOOL isExpanded;
 }
@@ -166,6 +168,12 @@ static UIFont *errorTextFont = nil;
 - (void) textDidChange :(UITextField *)textField {
     self.showErrorButton = ![self isValid];
 }
+- (UIView *)shakeView {
+    if (!_shakeView) {
+        _shakeView = self.superview;
+    }
+    return _shakeView;
+}
 -(BOOL) isValid  {
     BOOL isValid = YES;
 
@@ -226,4 +234,13 @@ static UIFont *errorTextFont = nil;
     }
     return isValid;
 }
+
+-(BOOL) checkValid {
+    if (![self isValid]) {
+        [self.shakeView shakeWithOptions:SCShakeOptionsDirectionHorizontal force:0.01 duration:0.5 iterationDuration:0.03 completionHandler:nil];
+        return false;
+    }
+    return true;
+}
+
 @end

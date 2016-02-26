@@ -12,5 +12,8 @@
 @interface GSTextField : UITextField
 @property (nonatomic, assign) BOOL showErrorButton;
 @property (nonatomic, strong) NSArray *validators;
+@property (nonatomic, strong) UIView *shakeView;
+
 -(BOOL) isValid;
+-(BOOL) checkValid;
 @end

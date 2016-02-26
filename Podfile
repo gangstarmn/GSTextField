@@ -4,6 +4,7 @@
 # use_frameworks!
 
 target 'GSTextField' do
-	pod 'InputValidators', '~> 1.0'
+	pod 'InputValidators'
+    pod 'SCViewShaker'
 end
 

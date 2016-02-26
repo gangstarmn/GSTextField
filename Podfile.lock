@@ -1,12 +1,15 @@
 PODS:
   - InputValidators (1.0.0)
+  - SCViewShaker (1.0.2)
 
 DEPENDENCIES:
   - InputValidators (~> 1.0)
+  - SCViewShaker
 
 SPEC CHECKSUMS:
   InputValidators: b278d3042d23893533d688cfb1563370d4cb184e
+  SCViewShaker: ebd2937cc5ac1de808164bcb5be2a23c8a6e7ab6
 
-PODFILE CHECKSUM: 48639f8b9f604f8896edce48afa1d2f40baac48b
+PODFILE CHECKSUM: da11e8cc0473fede72fb31893d50473d6d56743d
 
 COCOAPODS: 1.0.0.beta.3

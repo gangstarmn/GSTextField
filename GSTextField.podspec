@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "GSTextField"
-  s.version      = "0.0.5"
+  s.version      = "0.0.7"
   s.summary      = "GSTextField is a error view with UITextField"
   s.description  = <<-DESC
                     Алдаа харуулдаг, Мөн алдааны мэссэж харуулдаг UITextfield.
@@ -17,5 +17,7 @@
   
   s.framework = 'UIKit'
   s.requires_arc = true
-  s.dependency 'InputValidators', '~> 1.0'
+  s.dependency 'InputValidators'
+  s.dependency 'SCViewShaker'
+
   end
