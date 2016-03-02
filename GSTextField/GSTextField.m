@@ -107,13 +107,10 @@ static UIFont *errorTextFont = nil;
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-//        self.rightViewMode = UITextFieldViewModeAlways;
         self.rightView = self.errorView;
         self.errorView.frame = CGRectMake(0, 0, self.bounds.size.height, self.bounds.size.height);
-//        self.layer.borderWidth = 1;
         isExpanded = false;
         [self addTarget:self action:@selector(textDidChange:) forControlEvents:UIControlEventEditingChanged];
-
     }
     return self;
 }
@@ -121,6 +118,10 @@ static UIFont *errorTextFont = nil;
     self = [super initWithCoder:aDecoder];
     if (self) {
         [self errorView];
+        self.rightView = self.errorView;
+        self.errorView.frame = CGRectMake(0, 0, self.bounds.size.height, self.bounds.size.height);
+        isExpanded = false;
+        [self addTarget:self action:@selector(textDidChange:) forControlEvents:UIControlEventEditingChanged];
     }
     return self;
 }
