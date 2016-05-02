@@ -8,6 +8,21 @@
 
 #import "GSLengthValidator.h"
 
+typedef NS_ENUM(NSInteger, GSLengthValidatorType) {
+    
+    GSLengthValidatorTypeMoreThan,
+    GSLengthValidatorTypeLessThan,
+    GSLengthValidatorTypeEqual,
+    GSLengthValidatorTypeRange,
+};
+
+@interface GSLengthValidator ()
+@property (nonatomic, assign) NSUInteger length;
+@property (nonatomic, assign) NSUInteger maxLength;
+@property (nonatomic, assign) GSLengthValidatorType validatorType;
+
+@end
+
 @implementation GSLengthValidator
 
 //- (instancetype)init {
@@ -20,12 +35,42 @@
 //    return self;
 //}
 
++ (instancetype)validatorMoreThanWithLength:(NSInteger) length {
+    GSLengthValidator *validator = [[self alloc] init];
+    validator.length = length;
+    validator.validatorType = GSLengthValidatorTypeMoreThan;
+    return validator;
+}
+
++ (instancetype)validatorLessThanWithLength:(NSInteger) length {
+    GSLengthValidator *validator = [[self alloc] init];
+    validator.length = length;
+    validator.validatorType = GSLengthValidatorTypeLessThan;
+    return validator;
+}
+
+
++ (instancetype)validatorEqualWithLength:(NSInteger) length {
+    GSLengthValidator *validator = [[self alloc] init];
+    validator.length = length;
+    validator.validatorType = GSLengthValidatorTypeEqual;
+    return validator;
+}
+
++ (instancetype)validatorRangeWithMin:(NSInteger) length
+                                  max:(NSInteger)maxLength{
+    GSLengthValidator *validator = [[self alloc] init];
+    validator.length = length;
+    validator.maxLength = maxLength;
+    validator.validatorType = GSLengthValidatorTypeRange;
+    return validator;
+}
+
 - (instancetype)init {
     self = [super init];
     
     if (self) {
         self.error = [LKValidatorError lengthValidationError];
-        _length = 4;
     }
     
     return self;
@@ -33,11 +78,27 @@
 
 - (BOOL)validate:(NSString *)string error:(NSError **) error {
     NSString *text = [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
-    if (text.length == self.length) {
-        return YES;
+    if (self.validatorType == GSLengthValidatorTypeMoreThan) {
+        if (text.length >= self.length) {
+            return YES;
+        }
     }
-    else {
-        return [super validate:string error:error];
+    if (self.validatorType == GSLengthValidatorTypeLessThan) {
+        if (text.length >= self.length) {
+            return YES;
+        }
     }
+    if (self.validatorType == GSLengthValidatorTypeEqual) {
+        if (text.length <= self.length) {
+            return YES;
+        }
+    }
+    if (self.validatorType == GSLengthValidatorTypeRange) {
+        if (text.length >= self.length && text.length <= self.maxLength) {
+            return YES;
+        }
+    }
+    return [super validate:string error:error];
+
 }
 @end

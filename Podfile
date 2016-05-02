@@ -6,5 +6,6 @@
 target 'GSTextField' do
 	pod 'InputValidators'
     pod 'SCViewShaker'
+    pod 'GSLocalization'
 end
 

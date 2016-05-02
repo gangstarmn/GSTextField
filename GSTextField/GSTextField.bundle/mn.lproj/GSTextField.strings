@@ -1,0 +1,16 @@
+/* 
+  ZAccount.strings
+  ZAccountKit
+
+  Created by Gantulga on 4/27/16.
+  Copyright © 2016 Gantulga. All rights reserved.
+*/
+
+"error.required" = "Заавал оруулна уу";
+"error.letter" = "Зөвхөн үсэг оруулна уу";
+"error.letter.hyphen" = "Зөвхөн үсэг, \"-\" оруулна уу";
+"error.email" = "И-мэйл буруу байна";
+"error.number" = "Зөвхөн тоо оруулна уу";
+"error.min.length" = "Тэмдэгтийн тоо хүрэхгүй байна";
+"error.length.error" = "Тэмдэгтийн тоо буруу байна";
+"error.error" = "Үл мэдэгдэх алдаа гарлаа";

@@ -1,15 +1,23 @@
 PODS:
+  - ATLog (0.0.2)
+  - GSLocalization (0.1.0):
+    - ATLog
+    - GSLog
+  - GSLog (0.0.1):
+    - ATLog
   - InputValidators (1.0.0)
   - SCViewShaker (1.0.2)
 
 DEPENDENCIES:
-  - InputValidators (~> 1.0)
+  - GSLocalization
+  - InputValidators
   - SCViewShaker
 
 SPEC CHECKSUMS:
+  ATLog: e9c8afd11e4108381fdc862e9ccb793435f8c259
+  GSLocalization: 4d5296eef4aa61da8b6a267fa376ccf4ebd8e510
+  GSLog: be5eeffcc705ef25cb8ac729f5dd2d9a694a34e0
   InputValidators: b278d3042d23893533d688cfb1563370d4cb184e
   SCViewShaker: ebd2937cc5ac1de808164bcb5be2a23c8a6e7ab6
 
-PODFILE CHECKSUM: da11e8cc0473fede72fb31893d50473d6d56743d
-
-COCOAPODS: 1.0.0.beta.3
+COCOAPODS: 0.39.0

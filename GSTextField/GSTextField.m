@@ -11,6 +11,7 @@
 #import "GSLengthValidator.h"
 #import "UIImage+Bundle.h"
 #import <SCViewShaker/UIView+Shake.h>
+#import <GSLocalization/GSLocalization.h>
 
 @interface GSTextField () {
     BOOL isExpanded;
@@ -28,16 +29,14 @@ static UIColor *errorTextColor = nil;
 static UIColor *mainTintColor = nil;
 static UIFont *errorTextFont = nil;
 
-//static ConnectionManager *sharedObject ;
 
+static NSString *bundleName = @"GSTextField";
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+#ifndef GSTextFieldLocalizedString
+#define GSTextFieldLocalizedString(key) \
+GSLocalizedString((key), bundleName)
+#endif
+
 - (UIColor *)errorTextColor {
     if (!errorTextColor) errorTextColor = [UIColor whiteColor];
     return errorTextColor;
@@ -186,46 +185,46 @@ static UIFont *errorTextFont = nil;
             isValid = YES;
             if ([validator isKindOfClass:[LKRequiredValidator class]]) {
                 isValid = NO;
-                self.errorLabel.text = @"Энэ талбарыг заавал оруулна уу";
+                self.errorLabel.text = GSTextFieldLocalizedString(@"error.required");
             }
             else if ([validator isKindOfClass:[LKAlphaValidator class]]) {
                 if (self.text.length > 0) {
                     isValid = NO;
-                    self.errorLabel.text = @"Зөвхөн үсэг оруулна уу";
+                    self.errorLabel.text = GSTextFieldLocalizedString(@"error.letter");
                 }
             }
             else if ([validator isKindOfClass:[GSNameValidator class]]) {
                 if (self.text.length > 0) {
                     isValid = NO;
-                    self.errorLabel.text = @"Зөвхөн үсэг, \"-\" оруулна уу";
+                    self.errorLabel.text = GSTextFieldLocalizedString(@"error.letter.hyphen");
                 }
             }
             else if ([validator isKindOfClass:[LKEmailValidator class]]) {
                 if (self.text.length > 0) {
                     isValid = NO;
-                    self.errorLabel.text = @"И-мэйл буруу байна";
+                    self.errorLabel.text = GSTextFieldLocalizedString(@"error.email");
                 }
             }
             else if ([validator isKindOfClass:[LKNumericValidator class]]) {
                 if (self.text.length > 0) {
                     isValid = NO;
-                    self.errorLabel.text = @"Зөвхөн тоо оруулна уу";
+                    self.errorLabel.text = GSTextFieldLocalizedString(@"error.number");
                 }
             }
             else if ([validator isKindOfClass:[LKLengthValidator class]]) {
                 if (self.text.length > 0) {
                     isValid = NO;
-                    self.errorLabel.text = @"Тэмдэгтийн тоо хүрэхгүй байна";
+                    self.errorLabel.text = GSTextFieldLocalizedString(@"error.min.length");
                 }
             }
             else if ([validator isKindOfClass:[GSLengthValidator class]]) {
                 if (self.text.length > 0) {
                     isValid = NO;
-                    self.errorLabel.text = @"Тэмдэгтийн тоо буруу байна";
+                    self.errorLabel.text = GSTextFieldLocalizedString(@"error.length.error");
                 }
             }
             else {
-                self.errorLabel.text = [NSString stringWithFormat:@"%@ буруу байна",self.placeholder];
+                self.errorLabel.text = @"Error";
             }
             
             if (!isValid) {

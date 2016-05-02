@@ -1,5 +1,4 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/InputValidators" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/InputValidators" "${PODS_ROOT}/Headers/Public/SCViewShaker"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/InputValidators" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ATLog" "${PODS_ROOT}/Headers/Public/GSLocalization" "${PODS_ROOT}/Headers/Public/GSLog" "${PODS_ROOT}/Headers/Public/InputValidators" "${PODS_ROOT}/Headers/Public/SCViewShaker"
 PODS_ROOT = ${SRCROOT}
-PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES
