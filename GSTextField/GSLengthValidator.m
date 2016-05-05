@@ -8,18 +8,7 @@
 
 #import "GSLengthValidator.h"
 
-typedef NS_ENUM(NSInteger, GSLengthValidatorType) {
-    
-    GSLengthValidatorTypeMoreThan,
-    GSLengthValidatorTypeLessThan,
-    GSLengthValidatorTypeEqual,
-    GSLengthValidatorTypeRange,
-};
-
 @interface GSLengthValidator ()
-@property (nonatomic, assign) NSUInteger length;
-@property (nonatomic, assign) NSUInteger maxLength;
-@property (nonatomic, assign) GSLengthValidatorType validatorType;
 
 @end
 

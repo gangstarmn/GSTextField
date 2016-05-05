@@ -8,6 +8,25 @@
 #import <UIKit/UIKit.h>
 #import <InputValidators/LKValidators.h>
 
-@interface GSLengthValidator : LKValidator
+typedef NS_ENUM(NSInteger, GSLengthValidatorType) {
+    
+    GSLengthValidatorTypeMoreThan,
+    GSLengthValidatorTypeLessThan,
+    GSLengthValidatorTypeEqual,
+    GSLengthValidatorTypeRange,
+};
 
+@interface GSLengthValidator : LKValidator
+@property (nonatomic, assign) GSLengthValidatorType validatorType;
+@property (nonatomic, assign) NSUInteger length;
+@property (nonatomic, assign) NSUInteger maxLength;
+
++ (instancetype)validatorMoreThanWithLength:(NSInteger) length ;
+
++ (instancetype)validatorLessThanWithLength:(NSInteger) length ;
+
++ (instancetype)validatorEqualWithLength:(NSInteger) length ;
+
++ (instancetype)validatorRangeWithMin:(NSInteger) length
+                                  max:(NSInteger) maxLength;
 @end

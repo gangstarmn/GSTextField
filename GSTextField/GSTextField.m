@@ -218,9 +218,24 @@ GSLocalizedString((key), bundleName)
                 }
             }
             else if ([validator isKindOfClass:[GSLengthValidator class]]) {
+                
                 if (self.text.length > 0) {
+                    
                     isValid = NO;
-                    self.errorLabel.text = GSTextFieldLocalizedString(@"error.length.error");
+                    
+                    GSLengthValidator *lenghtValidator = (GSLengthValidator *)validator;
+                    if (lenghtValidator.validatorType == GSLengthValidatorTypeMoreThan) {
+                        self.errorLabel.text = [NSString stringWithFormat:GSTextFieldLocalizedString(@"error.length.morethan"),lenghtValidator.length];
+                    }
+                    else if (lenghtValidator.validatorType == GSLengthValidatorTypeLessThan) {
+                        self.errorLabel.text = [NSString stringWithFormat:GSTextFieldLocalizedString(@"error.length.lessthan"),lenghtValidator.length];
+                    }
+                    else if (lenghtValidator.validatorType == GSLengthValidatorTypeEqual) {
+                        self.errorLabel.text = [NSString stringWithFormat:GSTextFieldLocalizedString(@"error.length.equal"),lenghtValidator.length];
+                    }
+                    else if (lenghtValidator.validatorType == GSLengthValidatorTypeRange) {
+                        self.errorLabel.text = [NSString stringWithFormat:GSTextFieldLocalizedString(@"error.length.range"),lenghtValidator.length,lenghtValidator.maxLength];
+                    }
                 }
             }
             else {
