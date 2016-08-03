@@ -1,0 +1,20 @@
+/* 
+  ZAccount.strings
+  ZAccountKit
+
+  Created by Gantulga on 4/27/16.
+  Copyright © 2016 Gantulga. All rights reserved.
+*/
+
+"error.required" = "반드시 입력해주십시오";
+"error.letter" = "영문으로 입력해주십시오";
+"error.letter.hyphen" = "영문만, \"-\" 입력하세요";
+"error.email" = "올바른 이메일 주소를 입력해주십시오.";
+"error.number" = "숫자만 입력해주십시오";
+"error.min.length" = "길이가 너무 짧습니다.";
+"error.length.error" = "길이가 너무 깁니다.";
+"error.error" = "에러 발생";
+"error.length.morethan" = "%d자이상, 영문 및 숫자 조합, 기호 포함해서 입력하십시오";
+"error.length.lessthan" = "%d자미만, 영문 및 숫자 조합, 기호 포함하여 입력하십시오 ";
+"error.length.equal" = "%d글자 이상 입력하십시오";
+"error.length.range" = "%d자이상~%d자미만의 영문, 숫자, 기호를 포함하여 입력하십시오у";

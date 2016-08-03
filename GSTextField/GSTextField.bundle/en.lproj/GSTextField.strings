@@ -6,3 +6,15 @@
   Copyright © 2016 Gantulga. All rights reserved.
 */
 
+"error.required" = "Input required";
+"error.letter" = "Please only type in letters";
+"error.letter.hyphen" = "Please enter, \"-\" only letters";
+"error.email" = "Email address is incorrect";
+"error.number" = "Please only enter numbers";
+"error.min.length" = "Minimum length is not met";
+"error.length.error" = "The length is incorrect";
+"error.error" = "Unknown error occurred";
+"error.length.morethan" = "Please enter more than %d character";
+"error.length.lessthan" = "please enter less than %d character";
+"error.length.equal" = "Please enter %d characters";
+"error.length.range" = "Please enter more than %@ but less than %@ characters";

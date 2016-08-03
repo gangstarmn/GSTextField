@@ -14,9 +14,7 @@
 "error.min.length" = "Тэмдэгтийн тоо хүрэхгүй байна";
 "error.length.error" = "Тэмдэгтийн тоо буруу байна";
 "error.error" = "Үл мэдэгдэх алдаа гарлаа";
-
-
 "error.length.morethan" = "%d-с их тэмдэгт оруулна уу";
 "error.length.lessthan" = "%d-с бага тэмдэгт оруулна уу";
-"error.length.equal" = "%d-с бага тэмдэгт оруулна уу";
+"error.length.equal" = "%d тэмдэгт оруулна уу";
 "error.length.range" = "%d-с их %d-с бага тэмдэгт оруулна уу";
