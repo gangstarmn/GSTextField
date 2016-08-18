@@ -17,4 +17,4 @@
 "error.length.morethan" = "Please enter more than %d character";
 "error.length.lessthan" = "please enter less than %d character";
 "error.length.equal" = "Please enter %d characters";
-"error.length.range" = "Please enter more than %@ but less than %@ characters";
+"error.length.range" = "Please enter more than %d but less than %d characters";
