@@ -1,10 +1,4 @@
-/* 
-  ZAccount.strings
-  ZAccountKit
-
-  Created by Gantulga on 4/27/16.
-  Copyright © 2016 Gantulga. All rights reserved.
-*/
+//GSTextField
 
 "error.required" = "Заавал оруулна уу";
 "error.letter" = "Зөвхөн үсэг оруулна уу";
@@ -18,3 +12,5 @@
 "error.length.lessthan" = "%d-с бага тэмдэгт оруулна уу";
 "error.length.equal" = "%d тэмдэгт оруулна уу";
 "error.length.range" = "%d-с их %d-с бага тэмдэгт оруулна уу";
+
+
