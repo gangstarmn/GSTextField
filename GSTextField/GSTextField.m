@@ -239,6 +239,9 @@ GSLocalizedString((key), bundleName)
                 }
             }
             else {
+                isValid = NO;
+                self.errorLabel.text = GSTextFieldLocalizedString(@"error.error");
+
                 self.errorLabel.text = @"Error";
             }
             

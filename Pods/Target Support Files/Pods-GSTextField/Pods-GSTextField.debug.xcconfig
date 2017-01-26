@@ -1,5 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ATLog" "${PODS_ROOT}/Headers/Public/GSLocalization" "${PODS_ROOT}/Headers/Public/GSLog" "${PODS_ROOT}/Headers/Public/InputValidators" "${PODS_ROOT}/Headers/Public/SCViewShaker"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/ATLog" "$PODS_CONFIGURATION_BUILD_DIR/GSLocalization" "$PODS_CONFIGURATION_BUILD_DIR/InputValidators" "$PODS_CONFIGURATION_BUILD_DIR/SCViewShaker"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ATLog" -isystem "${PODS_ROOT}/Headers/Public/GSLocalization" -isystem "${PODS_ROOT}/Headers/Public/GSLog" -isystem "${PODS_ROOT}/Headers/Public/InputValidators" -isystem "${PODS_ROOT}/Headers/Public/SCViewShaker"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"ATLog" -l"GSLocalization" -l"InputValidators" -l"SCViewShaker" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
