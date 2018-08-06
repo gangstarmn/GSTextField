@@ -7,87 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		037BA8CD473969F2496EDEE64A2F807E /* GSLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = D4490251625E2053E311DE3EEB146E5F /* GSLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08A7F2289E437AA0450A74F2D0E69E17 /* ATString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E6D366AF42398BCA329368ADDBE331 /* ATString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BF76F06F433B0050A8A48C718BB3618 /* LKAlphaValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DB48E041EA1D664DEEDAA7BFAE5C03 /* LKAlphaValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E8BE29AE62A1372BF39A542B598DC05 /* LKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8021A505A5A744B4051DEA8AC4BF178E /* LKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C7EFA3D67B34C4925AE86822CD51372 /* LKRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC9A556CA6F36BACC27849556FD6E0 /* LKRegexValidator.m */; };
-		1E0C8804725B7D5FE42486CE12629D9E /* LKMultipleValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F17FCF2516ED3EF15EC26A3EE7170BB /* LKMultipleValidator.m */; };
-		20B81A07C65F9D44EA76CF47E3A0E5F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
-		238A2E837A2CF7171398ABFBB57DB191 /* LKMultipleValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA66336544A1BA8531AE9224ACCB2B9 /* LKMultipleValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25A1A7B446190494C94EA12E30BE36AA /* LKValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9B9EFA11B53A23F0A0E6FDB00B31C3 /* LKValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25E4077BDF3CD5A02B668EF4FAB0DB19 /* LKLengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C37B28C47ADCB7C67C547750E05E051 /* LKLengthValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29FD291C88F3C8B405BF1E5C3CE11171 /* LKValidatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = A5667EC22879E5FF66C510F74FFAF17C /* LKValidatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3649D2DC0089E18452EC35854A500BA9 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B70AFAF4FDDB324E5D7DDD6683E38 /* UIView+Shake.m */; };
-		3823DEC873F222C07E72062EA41411D9 /* InputValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D33746C8EE3CE9876D07741B8B9F7 /* InputValidators-dummy.m */; };
-		3DF2965C5D14C56D951B6F06D98C8BB2 /* LKValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 806803D474AA6465186278177F4912E8 /* LKValidator.m */; };
-		4763B12598F998F5733D6DE5CD583D63 /* LKEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B225DBA05A461B9A41BBE792A1B1B1FA /* LKEmailValidator.m */; };
+		075CA27F9260D95839C25B40FBFEC91B /* LKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B9C354615977727121385776AF38E /* LKTextField.m */; };
+		0CD7041A40F15674CDA951831EFBF02C /* ATString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E6D366AF42398BCA329368ADDBE331 /* ATString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1014BAD51EE82C0EEA6DB4253536BE0E /* LKMultipleValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA66336544A1BA8531AE9224ACCB2B9 /* LKMultipleValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15B208E329E2AF35182085CB77039EF7 /* LKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8021A505A5A744B4051DEA8AC4BF178E /* LKTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EE78999190F55C6AB970007058DDA59 /* LKRequiredValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9451953130DEB57A2B0F371955FCE52F /* LKRequiredValidator.m */; };
+		25E66F15EFCF11D5DEB555C0D3C4BBE8 /* LKRequiredValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6373397BADA19861C80BB5458F17E7 /* LKRequiredValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F7FCA582EF0685E2749434D68F886A4 /* GSLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7347EF7B371374F1BE3B891396823D2D /* GSLocalize.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FEEA5C8141D94145A23277B3B89DC25 /* LKValidatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = A5667EC22879E5FF66C510F74FFAF17C /* LKValidatorError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36B22C1239B1EB883373F6DEB9056915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */; };
+		38C2E6ED5E289356D4AE98F70081AB3D /* LKValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = 3685C822959CABC2474C1B0F35906145 /* LKValidators.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3926D241F0D50AF8C4E39D7B0B84E036 /* GSLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = D4490251625E2053E311DE3EEB146E5F /* GSLocalization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EFA88D02DBA4824BE43C9C6194AFB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
+		402F282131E15CFA273CED02A950D354 /* at_preprocessor_map.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D1FD843D6AF21BE347C7E18CEEF20 /* at_preprocessor_map.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		47AFBA16D308870CAFBA5FC8F6887B2B /* ATLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B28EC133AD67A067AB36D380F87D60 /* ATLog-dummy.m */; };
-		4921813CB04CE558A0AFB4CEFB6F2CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
-		56FFA69A4495D37FBE366F97C72601C1 /* ATLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 660F273FF0DC3B954BED8D79ED236C2F /* ATLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		595B028E7A5783D82A3914E9C3A122B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
-		5DF235BB5CE0C14874B2CF4D87501BD7 /* GSLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 080226856D306B7404AE7D24BCDC839E /* GSLocalize.m */; };
+		4E3D3E390C46965E7EBD039043BCDA66 /* LKAlphaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5A0BE869B328A1D803F8B5F5A5449 /* LKAlphaValidator.m */; };
+		4EA7E00E6DE003615321281D7DD8A877 /* GSLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A756AF34C473DD5D7070A717DA4B9281 /* GSLocalization-dummy.m */; };
+		4F66B1CD848D44195185E3D0BDBDB3B3 /* LKNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3586ABB5A51B38AAFF065A8421F9A64 /* LKNumericValidator.m */; };
+		569B4F5C12FA20CC7F44548687D7A057 /* GSLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 080226856D306B7404AE7D24BCDC839E /* GSLocalize.m */; };
+		57060B5E6950B7206071629F8552B0F7 /* LKRegexValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E78A1DBFD0597CC999FBB535CA88FF25 /* LKRegexValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FE8AFA8B56377AEF76423F3175C2987 /* LKLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463AAA583FC2CF4CA9F90AC6949D78 /* LKLengthValidator.m */; };
+		6197C6648E2B855F1768AB2079F88CB0 /* LKRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC9A556CA6F36BACC27849556FD6E0 /* LKRegexValidator.m */; };
 		61DC2E5F690DA706B52F8B0BB260E69E /* ATString.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D28B11BAF34ED76802660B98F792B4 /* ATString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		64980CCA9680DECFC5B7D2FF5A02215A /* LKValidatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6FEB1731434662D4A01AEBF4FD6FE /* LKValidatorError.m */; };
-		668D42F18690D11E12068CD3FA5B4A2D /* GSLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7347EF7B371374F1BE3B891396823D2D /* GSLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FA9388FE683E6F3F03ECECE0406971D /* SCViewShaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A88C26BA4F03FDDC6AA9B87DD4654 /* SCViewShaker-dummy.m */; };
-		716F1FAB6A30DF26840464B21CA9839E /* LKNumericValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBE1A22B561C88C29A3D1FE15D3296C /* LKNumericValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		775251861450C4E1CF97303A3E8C5D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
-		788DECE3E23789A5179413DEBC6E44CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
-		7C908C37E01C327C94EA1F61F0F2657E /* LKRequiredValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9451953130DEB57A2B0F371955FCE52F /* LKRequiredValidator.m */; };
-		8CF503E4F3D732E68F008ACB6A629FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
-		8D89B2719B2D87A53F4D0283EAD05E58 /* UIView+Shake.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B2E32493A84545E19D00247D5FF2EF /* UIView+Shake.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		945430B9B4FC8890BDBFF471FCF8EA73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
-		9652A86AB7AD2B2226B2E4FA99C036DD /* Pods-GSTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52033424F46961C7C50B7B5BBF223352 /* Pods-GSTextField-dummy.m */; };
-		A239CFAB8A7BD27CE84CF50E539B7A8F /* LKRequiredValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6373397BADA19861C80BB5458F17E7 /* LKRequiredValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A73DAE6FD90BDC5EA91EF029E63D851D /* LKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B9C354615977727121385776AF38E /* LKTextField.m */; };
-		B0B11D826C7897FD01505F095707C6DC /* GSLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A756AF34C473DD5D7070A717DA4B9281 /* GSLocalization-dummy.m */; };
-		B2B6B977115E1FEEA039D85A363C81E2 /* LKNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3586ABB5A51B38AAFF065A8421F9A64 /* LKNumericValidator.m */; };
-		BC782828C9A89A98892C74DEDC2ABEB4 /* LKLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463AAA583FC2CF4CA9F90AC6949D78 /* LKLengthValidator.m */; };
-		C44D1F91F19370A93CEC6FB95408EED0 /* LKAlphaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5A0BE869B328A1D803F8B5F5A5449 /* LKAlphaValidator.m */; };
-		C62E1A0A2CCF977B5E56A763C501378F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
-		CA6E1A322727318D11CB6C0C874163C4 /* LKValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = 3685C822959CABC2474C1B0F35906145 /* LKValidators.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE5FD213D87F4FF48E24DFB8C2F22AC8 /* ATPrettyLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F690D8D34FFD1CAAFF53B8E33B9A36CD /* ATPrettyLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E146F11BDF48F749C14D25F21BE04DB2 /* LKRegexValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E78A1DBFD0597CC999FBB535CA88FF25 /* LKRegexValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7E5E4B620297B8B77D9819DB49CCD39 /* at_preprocessor_map.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7D1FD843D6AF21BE347C7E18CEEF20 /* at_preprocessor_map.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F22E6F01564472CD1CE35B2B20C119CC /* LKEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F1C24EA6610AB9DE29933F180306A4 /* LKEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F48246AB43C7630154BB55C872DCF95 /* UIView+Shake.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B2E32493A84545E19D00247D5FF2EF /* UIView+Shake.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76048202D343E03B9A01AAAB026A25E5 /* LKEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B225DBA05A461B9A41BBE792A1B1B1FA /* LKEmailValidator.m */; };
+		90E35035DD1B9E08A351511776E41B8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */; };
+		94CEDACAB6B1E8D420B1E6C9A851A60B /* LKEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F1C24EA6610AB9DE29933F180306A4 /* LKEmailValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		975A1B27E3493BA3B720F68E175B2014 /* LKMultipleValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F17FCF2516ED3EF15EC26A3EE7170BB /* LKMultipleValidator.m */; };
+		97D286A428BE431B804D320CE855BCF9 /* SCViewShaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A88C26BA4F03FDDC6AA9B87DD4654 /* SCViewShaker-dummy.m */; };
+		9BE44F4EE9E77161845F59D20C8BF9E1 /* InputValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D33746C8EE3CE9876D07741B8B9F7 /* InputValidators-dummy.m */; };
+		AEB59E757EFAA5FE6BF0AF2FB6EB8661 /* LKValidatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6FEB1731434662D4A01AEBF4FD6FE /* LKValidatorError.m */; };
+		B46CFFDDDA4002A4A42439D07AE9ADD0 /* ATPrettyLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F690D8D34FFD1CAAFF53B8E33B9A36CD /* ATPrettyLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6200EE08EFB35541636DFE0B37FC722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */; };
+		C147F4801B8285D96DDF7DBA4043AACE /* LKValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 806803D474AA6465186278177F4912E8 /* LKValidator.m */; };
+		C755078F2191B0319706D95CF305B854 /* ATLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 660F273FF0DC3B954BED8D79ED236C2F /* ATLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFC4B37D7A5967CBE2534A9FE55A5F75 /* LKAlphaValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DB48E041EA1D664DEEDAA7BFAE5C03 /* LKAlphaValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E59501ABC8CEF52211E733D726FA6125 /* LKValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9B9EFA11B53A23F0A0E6FDB00B31C3 /* LKValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC617DA087612EE0B56133F0DC995D6B /* Pods-GSTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52033424F46961C7C50B7B5BBF223352 /* Pods-GSTextField-dummy.m */; };
+		EF590D8D90A8831AB89A45B8E6DB3CDB /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B70AFAF4FDDB324E5D7DDD6683E38 /* UIView+Shake.m */; };
+		F755F3B13AFA16F4CECD520406E0E36D /* LKLengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C37B28C47ADCB7C67C547750E05E051 /* LKLengthValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7E24FACF0BCDAA2F0252E9AD6F31BF3 /* LKNumericValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBE1A22B561C88C29A3D1FE15D3296C /* LKNumericValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		31DD5A85A07CC955787B32DC763CFB83 /* PBXContainerItemProxy */ = {
+		0AA9AD6F7A67C26E862220F2091666DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 56641A5B91DD6F46B8ED4443827E549E;
 			remoteInfo = ATLog;
 		};
-		3B629A3844471CED01971BABB79803B3 /* PBXContainerItemProxy */ = {
+		0F77A0BD23C7F38005456B01884C82E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A30962D0F2B163FC4D1913799141BFA;
+			remoteGlobalIDString = 25786B01303C4017CE04FF7599B885DC;
 			remoteInfo = GSLocalization;
 		};
-		C6B151935896DCF395F67CF3924D7FAF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 602C57BBC6AF002C5B19B66E179F92E7;
-			remoteInfo = SCViewShaker;
-		};
-		E8E4A6E60C467133C9CB07AEA567F2DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF836295027C03B274E59F52AEFA64D9;
-			remoteInfo = InputValidators;
-		};
-		FE3E27339B766D61C6C32097D52972C1 /* PBXContainerItemProxy */ = {
+		6AE6A981D811D80D3B2972124CB1FBD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 56641A5B91DD6F46B8ED4443827E549E;
 			remoteInfo = ATLog;
+		};
+		C767A02E3C314B6F3A24FD288587AEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972336CF886D001C514BAE05A8608957;
+			remoteInfo = SCViewShaker;
+		};
+		E14825D250BE7C6380D1468987CADA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD82406106D6DD3DFD1990FDDD8DE475;
+			remoteInfo = InputValidators;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -98,27 +94,26 @@
 		0C3D33746C8EE3CE9876D07741B8B9F7 /* InputValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InputValidators-dummy.m"; sourceTree = "<group>"; };
 		10B2E32493A84545E19D00247D5FF2EF /* UIView+Shake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
 		13018417AEF27C1F8DD8DE96DF0FB90E /* Pods-GSTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSTextField.release.xcconfig"; sourceTree = "<group>"; };
+		1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		335AE700A6AFD8971FEF0C221794764F /* InputValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InputValidators-prefix.pch"; sourceTree = "<group>"; };
 		3685C822959CABC2474C1B0F35906145 /* LKValidators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidators.h; path = Sources/LKValidators.h; sourceTree = "<group>"; };
 		46F98BF3167089C4C3CC459930AAFA4E /* libInputValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libInputValidators.a; path = libInputValidators.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2A88C26BA4F03FDDC6AA9B87DD4654 /* SCViewShaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCViewShaker-dummy.m"; sourceTree = "<group>"; };
-		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		4F0B86543BB649ED03B3E188859CC49B /* libATLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libATLog.a; path = libATLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		52033424F46961C7C50B7B5BBF223352 /* Pods-GSTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSTextField-dummy.m"; sourceTree = "<group>"; };
 		578D84ADA7F00A413A465CB2F55F4716 /* Pods-GSTextField-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSTextField-acknowledgements.plist"; sourceTree = "<group>"; };
 		5CD0722EC81719633D686C7151B57868 /* libPods-GSTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GSTextField.a"; path = "libPods-GSTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B6FEB1731434662D4A01AEBF4FD6FE /* LKValidatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidatorError.m; path = Sources/Core/LKValidatorError.m; sourceTree = "<group>"; };
 		660F273FF0DC3B954BED8D79ED236C2F /* ATLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATLog.h; path = ATLog/ATLog/ATLog.h; sourceTree = "<group>"; };
-		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6B9B9EFA11B53A23F0A0E6FDB00B31C3 /* LKValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidator.h; path = Sources/Core/LKValidator.h; sourceTree = "<group>"; };
 		6F463AAA583FC2CF4CA9F90AC6949D78 /* LKLengthValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLengthValidator.m; path = Sources/Validators/LKLengthValidator.m; sourceTree = "<group>"; };
 		7347EF7B371374F1BE3B891396823D2D /* GSLocalize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLocalize.h; path = GSLocalization/GSLocalize.h; sourceTree = "<group>"; };
 		73B3CBB871DBED48AA7A1CBF35959EFA /* Pods-GSTextField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSTextField-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75FE0F778F11DF1B680B3FAAD90BAC2A /* libGSLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGSLocalization.a; path = libGSLocalization.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8021A505A5A744B4051DEA8AC4BF178E /* LKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKTextField.h; path = Sources/UI/LKTextField.h; sourceTree = "<group>"; };
 		806803D474AA6465186278177F4912E8 /* LKValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidator.m; path = Sources/Core/LKValidator.m; sourceTree = "<group>"; };
 		86DB48E041EA1D664DEEDAA7BFAE5C03 /* LKAlphaValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAlphaValidator.h; path = Sources/Validators/LKAlphaValidator.h; sourceTree = "<group>"; };
+		888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		890B70AFAF4FDDB324E5D7DDD6683E38 /* UIView+Shake.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
 		8A7D1FD843D6AF21BE347C7E18CEEF20 /* at_preprocessor_map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = at_preprocessor_map.h; path = ATLog/ATString/at_preprocessor_map.h; sourceTree = "<group>"; };
 		8D69C16522CA0B5FE525360A96C27E64 /* ATLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATLog.xcconfig; sourceTree = "<group>"; };
@@ -137,6 +132,7 @@
 		B2FC9A556CA6F36BACC27849556FD6E0 /* LKRegexValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKRegexValidator.m; path = Sources/Validators/LKRegexValidator.m; sourceTree = "<group>"; };
 		B3E6D366AF42398BCA329368ADDBE331 /* ATString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATString.h; path = ATLog/ATString/ATString.h; sourceTree = "<group>"; };
 		BCDA57267C81127DC9505156F23E8BFD /* Pods-GSTextField-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSTextField-resources.sh"; sourceTree = "<group>"; };
+		BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		BEB7DF9F0C22E71BD2E5DAC278B1ED1F /* InputValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InputValidators.xcconfig; sourceTree = "<group>"; };
 		C3B28EC133AD67A067AB36D380F87D60 /* ATLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATLog-dummy.m"; sourceTree = "<group>"; };
 		C9B39934FD1C6C731B16A217F5752FB9 /* ATLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATLog-prefix.pch"; sourceTree = "<group>"; };
@@ -154,36 +150,32 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02CCCC07D3087DA43787169DC441978A /* Frameworks */ = {
+		5CA341B21AE1B2CB5CE760C5ADA5DFF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788DECE3E23789A5179413DEBC6E44CF /* Foundation.framework in Frameworks */,
+				B6200EE08EFB35541636DFE0B37FC722 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6588287988EA6C02C606C1680704909E /* Frameworks */ = {
+		68722230EC09EC586CA02031C0A1EB0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF503E4F3D732E68F008ACB6A629FD7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D2D73008B28E9EA784DBB6B05AE3ED1 /* Frameworks */ = {
+		A984DB788769D3D3C5008D8B84D87232 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				775251861450C4E1CF97303A3E8C5D82 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCFCCE6559596B79F96B1087E84C13D1 /* Frameworks */ = {
+		C33F28DC6C8ED437589C3BD4AF1CFF14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				595B028E7A5783D82A3914E9C3A122B3 /* Foundation.framework in Frameworks */,
-				C62E1A0A2CCF977B5E56A763C501378F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,9 +183,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				945430B9B4FC8890BDBFF471FCF8EA73 /* CoreGraphics.framework in Frameworks */,
-				4921813CB04CE558A0AFB4CEFB6F2CE6 /* Foundation.framework in Frameworks */,
-				20B81A07C65F9D44EA76CF47E3A0E5F1 /* UIKit.framework in Frameworks */,
+				90E35035DD1B9E08A351511776E41B8A /* CoreGraphics.framework in Frameworks */,
+				3EFA88D02DBA4824BE43C9C6194AFB91 /* Foundation.framework in Frameworks */,
+				36B22C1239B1EB883373F6DEB9056915 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +214,7 @@
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
+				C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,16 +228,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SCViewShaker";
-			sourceTree = "<group>";
-		};
-		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
-				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
-				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		348A258DD21635E9A1A0727133FB3D8D /* GSLocalization */ = {
@@ -364,6 +346,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */,
+				888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */,
+				1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		D63D538D0FB7B4AB888906FF9D486337 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,30 +390,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3350A7DF41E29BE9ACA64B55449B15C4 /* Headers */ = {
+		527A1E9B7CB9B485B7821F150045CE8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF76F06F433B0050A8A48C718BB3618 /* LKAlphaValidator.h in Headers */,
-				F22E6F01564472CD1CE35B2B20C119CC /* LKEmailValidator.h in Headers */,
-				25E4077BDF3CD5A02B668EF4FAB0DB19 /* LKLengthValidator.h in Headers */,
-				238A2E837A2CF7171398ABFBB57DB191 /* LKMultipleValidator.h in Headers */,
-				716F1FAB6A30DF26840464B21CA9839E /* LKNumericValidator.h in Headers */,
-				E146F11BDF48F749C14D25F21BE04DB2 /* LKRegexValidator.h in Headers */,
-				A239CFAB8A7BD27CE84CF50E539B7A8F /* LKRequiredValidator.h in Headers */,
-				0E8BE29AE62A1372BF39A542B598DC05 /* LKTextField.h in Headers */,
-				25A1A7B446190494C94EA12E30BE36AA /* LKValidator.h in Headers */,
-				29FD291C88F3C8B405BF1E5C3CE11171 /* LKValidatorError.h in Headers */,
-				CA6E1A322727318D11CB6C0C874163C4 /* LKValidators.h in Headers */,
+				3926D241F0D50AF8C4E39D7B0B84E036 /* GSLocalization.h in Headers */,
+				2F7FCA582EF0685E2749434D68F886A4 /* GSLocalize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A063B8956846D6FB000B04D7671077E /* Headers */ = {
+		8D7FB1E7CA2B480C425B624A65530621 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037BA8CD473969F2496EDEE64A2F807E /* GSLocalization.h in Headers */,
-				668D42F18690D11E12068CD3FA5B4A2D /* GSLocalize.h in Headers */,
+				6F48246AB43C7630154BB55C872DCF95 /* UIView+Shake.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8231E0ACECD302E16C5C379E89EED08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC4B37D7A5967CBE2534A9FE55A5F75 /* LKAlphaValidator.h in Headers */,
+				94CEDACAB6B1E8D420B1E6C9A851A60B /* LKEmailValidator.h in Headers */,
+				F755F3B13AFA16F4CECD520406E0E36D /* LKLengthValidator.h in Headers */,
+				1014BAD51EE82C0EEA6DB4253536BE0E /* LKMultipleValidator.h in Headers */,
+				F7E24FACF0BCDAA2F0252E9AD6F31BF3 /* LKNumericValidator.h in Headers */,
+				57060B5E6950B7206071629F8552B0F7 /* LKRegexValidator.h in Headers */,
+				25E66F15EFCF11D5DEB555C0D3C4BBE8 /* LKRequiredValidator.h in Headers */,
+				15B208E329E2AF35182085CB77039EF7 /* LKTextField.h in Headers */,
+				E59501ABC8CEF52211E733D726FA6125 /* LKValidator.h in Headers */,
+				2FEEA5C8141D94145A23277B3B89DC25 /* LKValidatorError.h in Headers */,
+				38C2E6ED5E289356D4AE98F70081AB3D /* LKValidators.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,42 +429,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E5E4B620297B8B77D9819DB49CCD39 /* at_preprocessor_map.h in Headers */,
-				56FFA69A4495D37FBE366F97C72601C1 /* ATLog.h in Headers */,
-				CE5FD213D87F4FF48E24DFB8C2F22AC8 /* ATPrettyLog.h in Headers */,
-				08A7F2289E437AA0450A74F2D0E69E17 /* ATString.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F17D6AF9F4F0A08C59D9B8EF29169D51 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D89B2719B2D87A53F4D0283EAD05E58 /* UIView+Shake.h in Headers */,
+				402F282131E15CFA273CED02A950D354 /* at_preprocessor_map.h in Headers */,
+				C755078F2191B0319706D95CF305B854 /* ATLog.h in Headers */,
+				B46CFFDDDA4002A4A42439D07AE9ADD0 /* ATPrettyLog.h in Headers */,
+				0CD7041A40F15674CDA951831EFBF02C /* ATString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50DECEE439F5735EFE2C3736256996DF /* Pods-GSTextField */ = {
+		25786B01303C4017CE04FF7599B885DC /* GSLocalization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE56F4A72F3D59B210478C5CEBCE04CF /* Build configuration list for PBXNativeTarget "Pods-GSTextField" */;
+			buildConfigurationList = ACEE4618C0D133424A978FE6C3EE7202 /* Build configuration list for PBXNativeTarget "GSLocalization" */;
 			buildPhases = (
-				B327ECC8CBB9F050683CC37D213ACB6E /* Sources */,
-				6588287988EA6C02C606C1680704909E /* Frameworks */,
+				D4CCDE9D149B39EFE1611E4A35A6AE43 /* Sources */,
+				5CA341B21AE1B2CB5CE760C5ADA5DFF9 /* Frameworks */,
+				527A1E9B7CB9B485B7821F150045CE8A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A726231D948D5F2AF2FBA6D12FA7996E /* PBXTargetDependency */,
-				14EA6D0BA7C89DAE456DB300F752677D /* PBXTargetDependency */,
-				2D847F7099E8871B02DFC1EEB316FF93 /* PBXTargetDependency */,
-				AFC0082D207DE92F691A59243FAA2FDE /* PBXTargetDependency */,
+				B7247239135E716E4DEF3C3F7564482E /* PBXTargetDependency */,
 			);
-			name = "Pods-GSTextField";
-			productName = "Pods-GSTextField";
-			productReference = 5CD0722EC81719633D686C7151B57868 /* libPods-GSTextField.a */;
+			name = GSLocalization;
+			productName = GSLocalization;
+			productReference = 75FE0F778F11DF1B680B3FAAD90BAC2A /* libGSLocalization.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		56641A5B91DD6F46B8ED4443827E549E /* ATLog */ = {
@@ -484,13 +474,13 @@
 			productReference = 4F0B86543BB649ED03B3E188859CC49B /* libATLog.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		602C57BBC6AF002C5B19B66E179F92E7 /* SCViewShaker */ = {
+		972336CF886D001C514BAE05A8608957 /* SCViewShaker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54399A2C4589BFBDB3AA2E27BC9CD59B /* Build configuration list for PBXNativeTarget "SCViewShaker" */;
+			buildConfigurationList = 787D075FBF861084090912082F2C533C /* Build configuration list for PBXNativeTarget "SCViewShaker" */;
 			buildPhases = (
-				A6CC9D6C32EFAD61C74EE1B39751C560 /* Sources */,
-				02CCCC07D3087DA43787169DC441978A /* Frameworks */,
-				F17D6AF9F4F0A08C59D9B8EF29169D51 /* Headers */,
+				192585258839236C1E34415D0EB62193 /* Sources */,
+				C33F28DC6C8ED437589C3BD4AF1CFF14 /* Frameworks */,
+				8D7FB1E7CA2B480C425B624A65530621 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -501,31 +491,13 @@
 			productReference = 02E171C1F88427972BB10017CD3031E1 /* libSCViewShaker.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9A30962D0F2B163FC4D1913799141BFA /* GSLocalization */ = {
+		BD82406106D6DD3DFD1990FDDD8DE475 /* InputValidators */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F09D7C961B15DEC2571A8315D52D741F /* Build configuration list for PBXNativeTarget "GSLocalization" */;
+			buildConfigurationList = DADDCD2749F19FA1A4D2EC46018E0C64 /* Build configuration list for PBXNativeTarget "InputValidators" */;
 			buildPhases = (
-				4CF6969E0F9513078184C01E538EA79D /* Sources */,
-				DCFCCE6559596B79F96B1087E84C13D1 /* Frameworks */,
-				3A063B8956846D6FB000B04D7671077E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EBC1F0588EA106A5DCAB66EAF5E6B176 /* PBXTargetDependency */,
-			);
-			name = GSLocalization;
-			productName = GSLocalization;
-			productReference = 75FE0F778F11DF1B680B3FAAD90BAC2A /* libGSLocalization.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FF836295027C03B274E59F52AEFA64D9 /* InputValidators */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B470657785989E1BD79D7068F0827F8 /* Build configuration list for PBXNativeTarget "InputValidators" */;
-			buildPhases = (
-				79CB9FDC7331613D1E297956BA24EC16 /* Sources */,
-				8D2D73008B28E9EA784DBB6B05AE3ED1 /* Frameworks */,
-				3350A7DF41E29BE9ACA64B55449B15C4 /* Headers */,
+				57D69D0257C24EB56B876E7C78D2D9A8 /* Sources */,
+				A984DB788769D3D3C5008D8B84D87232 /* Frameworks */,
+				D8231E0ACECD302E16C5C379E89EED08 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -536,14 +508,34 @@
 			productReference = 46F98BF3167089C4C3CC459930AAFA4E /* libInputValidators.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		F784307BA60875ADBAB904FEE6CB64B6 /* Pods-GSTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91E9E9AD49C7176A9E4F427A0F66E41 /* Build configuration list for PBXNativeTarget "Pods-GSTextField" */;
+			buildPhases = (
+				F61BFA859446B7D7306E786C0CD694F1 /* Sources */,
+				68722230EC09EC586CA02031C0A1EB0D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DC9E5FDF3F510ED9309A4D14FE4E94 /* PBXTargetDependency */,
+				1301BE5B5558114C13FEEB82EE4EB78A /* PBXTargetDependency */,
+				669CBA7DAC443A9B978E00AD0AFF7EA8 /* PBXTargetDependency */,
+				5DD0BEB570B378535590909905B0CC7F /* PBXTargetDependency */,
+			);
+			name = "Pods-GSTextField";
+			productName = "Pods-GSTextField";
+			productReference = 5CD0722EC81719633D686C7151B57868 /* libPods-GSTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -558,39 +550,39 @@
 			projectRoot = "";
 			targets = (
 				56641A5B91DD6F46B8ED4443827E549E /* ATLog */,
-				9A30962D0F2B163FC4D1913799141BFA /* GSLocalization */,
-				FF836295027C03B274E59F52AEFA64D9 /* InputValidators */,
-				50DECEE439F5735EFE2C3736256996DF /* Pods-GSTextField */,
-				602C57BBC6AF002C5B19B66E179F92E7 /* SCViewShaker */,
+				25786B01303C4017CE04FF7599B885DC /* GSLocalization */,
+				BD82406106D6DD3DFD1990FDDD8DE475 /* InputValidators */,
+				F784307BA60875ADBAB904FEE6CB64B6 /* Pods-GSTextField */,
+				972336CF886D001C514BAE05A8608957 /* SCViewShaker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CF6969E0F9513078184C01E538EA79D /* Sources */ = {
+		192585258839236C1E34415D0EB62193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B11D826C7897FD01505F095707C6DC /* GSLocalization-dummy.m in Sources */,
-				5DF235BB5CE0C14874B2CF4D87501BD7 /* GSLocalize.m in Sources */,
+				97D286A428BE431B804D320CE855BCF9 /* SCViewShaker-dummy.m in Sources */,
+				EF590D8D90A8831AB89A45B8E6DB3CDB /* UIView+Shake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79CB9FDC7331613D1E297956BA24EC16 /* Sources */ = {
+		57D69D0257C24EB56B876E7C78D2D9A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3823DEC873F222C07E72062EA41411D9 /* InputValidators-dummy.m in Sources */,
-				C44D1F91F19370A93CEC6FB95408EED0 /* LKAlphaValidator.m in Sources */,
-				4763B12598F998F5733D6DE5CD583D63 /* LKEmailValidator.m in Sources */,
-				BC782828C9A89A98892C74DEDC2ABEB4 /* LKLengthValidator.m in Sources */,
-				1E0C8804725B7D5FE42486CE12629D9E /* LKMultipleValidator.m in Sources */,
-				B2B6B977115E1FEEA039D85A363C81E2 /* LKNumericValidator.m in Sources */,
-				1C7EFA3D67B34C4925AE86822CD51372 /* LKRegexValidator.m in Sources */,
-				7C908C37E01C327C94EA1F61F0F2657E /* LKRequiredValidator.m in Sources */,
-				A73DAE6FD90BDC5EA91EF029E63D851D /* LKTextField.m in Sources */,
-				3DF2965C5D14C56D951B6F06D98C8BB2 /* LKValidator.m in Sources */,
-				64980CCA9680DECFC5B7D2FF5A02215A /* LKValidatorError.m in Sources */,
+				9BE44F4EE9E77161845F59D20C8BF9E1 /* InputValidators-dummy.m in Sources */,
+				4E3D3E390C46965E7EBD039043BCDA66 /* LKAlphaValidator.m in Sources */,
+				76048202D343E03B9A01AAAB026A25E5 /* LKEmailValidator.m in Sources */,
+				5FE8AFA8B56377AEF76423F3175C2987 /* LKLengthValidator.m in Sources */,
+				975A1B27E3493BA3B720F68E175B2014 /* LKMultipleValidator.m in Sources */,
+				4F66B1CD848D44195185E3D0BDBDB3B3 /* LKNumericValidator.m in Sources */,
+				6197C6648E2B855F1768AB2079F88CB0 /* LKRegexValidator.m in Sources */,
+				1EE78999190F55C6AB970007058DDA59 /* LKRequiredValidator.m in Sources */,
+				075CA27F9260D95839C25B40FBFEC91B /* LKTextField.m in Sources */,
+				C147F4801B8285D96DDF7DBA4043AACE /* LKValidator.m in Sources */,
+				AEB59E757EFAA5FE6BF0AF2FB6EB8661 /* LKValidatorError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,370 +595,408 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6CC9D6C32EFAD61C74EE1B39751C560 /* Sources */ = {
+		D4CCDE9D149B39EFE1611E4A35A6AE43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA9388FE683E6F3F03ECECE0406971D /* SCViewShaker-dummy.m in Sources */,
-				3649D2DC0089E18452EC35854A500BA9 /* UIView+Shake.m in Sources */,
+				4EA7E00E6DE003615321281D7DD8A877 /* GSLocalization-dummy.m in Sources */,
+				569B4F5C12FA20CC7F44548687D7A057 /* GSLocalize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B327ECC8CBB9F050683CC37D213ACB6E /* Sources */ = {
+		F61BFA859446B7D7306E786C0CD694F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9652A86AB7AD2B2226B2E4FA99C036DD /* Pods-GSTextField-dummy.m in Sources */,
+				EC617DA087612EE0B56133F0DC995D6B /* Pods-GSTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14EA6D0BA7C89DAE456DB300F752677D /* PBXTargetDependency */ = {
+		1301BE5B5558114C13FEEB82EE4EB78A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GSLocalization;
-			target = 9A30962D0F2B163FC4D1913799141BFA /* GSLocalization */;
-			targetProxy = 3B629A3844471CED01971BABB79803B3 /* PBXContainerItemProxy */;
+			target = 25786B01303C4017CE04FF7599B885DC /* GSLocalization */;
+			targetProxy = 0F77A0BD23C7F38005456B01884C82E1 /* PBXContainerItemProxy */;
 		};
-		2D847F7099E8871B02DFC1EEB316FF93 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = InputValidators;
-			target = FF836295027C03B274E59F52AEFA64D9 /* InputValidators */;
-			targetProxy = E8E4A6E60C467133C9CB07AEA567F2DC /* PBXContainerItemProxy */;
-		};
-		A726231D948D5F2AF2FBA6D12FA7996E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ATLog;
-			target = 56641A5B91DD6F46B8ED4443827E549E /* ATLog */;
-			targetProxy = 31DD5A85A07CC955787B32DC763CFB83 /* PBXContainerItemProxy */;
-		};
-		AFC0082D207DE92F691A59243FAA2FDE /* PBXTargetDependency */ = {
+		5DD0BEB570B378535590909905B0CC7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SCViewShaker;
-			target = 602C57BBC6AF002C5B19B66E179F92E7 /* SCViewShaker */;
-			targetProxy = C6B151935896DCF395F67CF3924D7FAF /* PBXContainerItemProxy */;
+			target = 972336CF886D001C514BAE05A8608957 /* SCViewShaker */;
+			targetProxy = C767A02E3C314B6F3A24FD288587AEEA /* PBXContainerItemProxy */;
 		};
-		EBC1F0588EA106A5DCAB66EAF5E6B176 /* PBXTargetDependency */ = {
+		669CBA7DAC443A9B978E00AD0AFF7EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InputValidators;
+			target = BD82406106D6DD3DFD1990FDDD8DE475 /* InputValidators */;
+			targetProxy = E14825D250BE7C6380D1468987CADA63 /* PBXContainerItemProxy */;
+		};
+		92DC9E5FDF3F510ED9309A4D14FE4E94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ATLog;
 			target = 56641A5B91DD6F46B8ED4443827E549E /* ATLog */;
-			targetProxy = FE3E27339B766D61C6C32097D52972C1 /* PBXContainerItemProxy */;
+			targetProxy = 6AE6A981D811D80D3B2972124CB1FBD8 /* PBXContainerItemProxy */;
+		};
+		B7247239135E716E4DEF3C3F7564482E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATLog;
+			target = 56641A5B91DD6F46B8ED4443827E549E /* ATLog */;
+			targetProxy = 0AA9AD6F7A67C26E862220F2091666DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		094EE4355EF08D8ED35CBA170A9EC943 /* Release */ = {
+		5E47483DFF900F8BBC0F4C01617CBC2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB7DF9F0C22E71BD2E5DAC278B1ED1F /* InputValidators.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/InputValidators/InputValidators-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = InputValidators;
+				PRODUCT_NAME = InputValidators;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		22B9183613F76BDB0F27397A79E72C8A /* Debug */ = {
+		6BF1FCE79E8C4946D0B53793A5B3C64E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2BA39E2A623A541009432E2965A5B02 /* Pods-GSTextField.debug.xcconfig */;
+			baseConfigurationReference = E87C6A98A625D452A7DC274A870A5EB4 /* GSLocalization.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GSLocalization/GSLocalization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GSLocalization;
+				PRODUCT_NAME = GSLocalization;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72219E7EEF4F9FEA95D92026DC67BC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87C6A98A625D452A7DC274A870A5EB4 /* GSLocalization.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GSLocalization/GSLocalization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GSLocalization;
+				PRODUCT_NAME = GSLocalization;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B77CBB649345B794F67C337419121CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A51A1454699C5C0DE6EEA8C2647F938 /* SCViewShaker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCViewShaker/SCViewShaker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCViewShaker;
+				PRODUCT_NAME = SCViewShaker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DBCE4D8229E7AB753D51D6A3799AE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A51A1454699C5C0DE6EEA8C2647F938 /* SCViewShaker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCViewShaker/SCViewShaker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCViewShaker;
+				PRODUCT_NAME = SCViewShaker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B89B509B3AF36FC5AF08C5585502423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D69C16522CA0B5FE525360A96C27E64 /* ATLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ATLog/ATLog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ATLog;
+				PRODUCT_NAME = ATLog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB7EF0D23855146D5051646C0692EA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D69C16522CA0B5FE525360A96C27E64 /* ATLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ATLog/ATLog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ATLog;
+				PRODUCT_NAME = ATLog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3B56B75D63294AFB22B1FFE6235222F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13018417AEF27C1F8DD8DE96DF0FB90E /* Pods-GSTextField.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		251EF5B5AF2F0B58909A47D339B2A430 /* Debug */ = {
+		E71214094AB7209F9D1422E8D6415D44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E87C6A98A625D452A7DC274A870A5EB4 /* GSLocalization.xcconfig */;
+			baseConfigurationReference = E2BA39E2A623A541009432E2965A5B02 /* Pods-GSTextField.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GSLocalization/GSLocalization-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		EDC9ADECC126EC21B9F3A27C5A9A5D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB7DF9F0C22E71BD2E5DAC278B1ED1F /* InputValidators.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/InputValidators/InputValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = InputValidators;
+				PRODUCT_NAME = InputValidators;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		58B8E6CB43F93585375824F4EF5861B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A51A1454699C5C0DE6EEA8C2647F938 /* SCViewShaker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SCViewShaker/SCViewShaker-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6C14612D97484B5CD11E32DC2328BFA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D69C16522CA0B5FE525360A96C27E64 /* ATLog.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ATLog/ATLog-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7C9C246A68EA838FBFCC0CCA6A40D507 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D69C16522CA0B5FE525360A96C27E64 /* ATLog.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ATLog/ATLog-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		958B6371FE7D1A98519709910802D41C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEB7DF9F0C22E71BD2E5DAC278B1ED1F /* InputValidators.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/InputValidators/InputValidators-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		96FF63198073404DB20A9C6D4F0649DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13018417AEF27C1F8DD8DE96DF0FB90E /* Pods-GSTextField.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AE84AFC1E152631D38F47B57E21F016D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A51A1454699C5C0DE6EEA8C2647F938 /* SCViewShaker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SCViewShaker/SCViewShaker-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EE36D47550C891DD2BD179AF3FAFDAD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E87C6A98A625D452A7DC274A870A5EB4 /* GSLocalization.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GSLocalization/GSLocalization-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -976,26 +1006,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B470657785989E1BD79D7068F0827F8 /* Build configuration list for PBXNativeTarget "InputValidators" */ = {
+		787D075FBF861084090912082F2C533C /* Build configuration list for PBXNativeTarget "SCViewShaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				958B6371FE7D1A98519709910802D41C /* Debug */,
-				094EE4355EF08D8ED35CBA170A9EC943 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54399A2C4589BFBDB3AA2E27BC9CD59B /* Build configuration list for PBXNativeTarget "SCViewShaker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE84AFC1E152631D38F47B57E21F016D /* Debug */,
-				58B8E6CB43F93585375824F4EF5861B3 /* Release */,
+				9DBCE4D8229E7AB753D51D6A3799AE00 /* Debug */,
+				8B77CBB649345B794F67C337419121CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1003,26 +1024,35 @@
 		8E7305CC6DBDD1F9C17D76451A83AC32 /* Build configuration list for PBXNativeTarget "ATLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C14612D97484B5CD11E32DC2328BFA8 /* Debug */,
-				7C9C246A68EA838FBFCC0CCA6A40D507 /* Release */,
+				B89B509B3AF36FC5AF08C5585502423C /* Debug */,
+				DB7EF0D23855146D5051646C0692EA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE56F4A72F3D59B210478C5CEBCE04CF /* Build configuration list for PBXNativeTarget "Pods-GSTextField" */ = {
+		ACEE4618C0D133424A978FE6C3EE7202 /* Build configuration list for PBXNativeTarget "GSLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22B9183613F76BDB0F27397A79E72C8A /* Debug */,
-				96FF63198073404DB20A9C6D4F0649DA /* Release */,
+				6BF1FCE79E8C4946D0B53793A5B3C64E /* Debug */,
+				72219E7EEF4F9FEA95D92026DC67BC6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F09D7C961B15DEC2571A8315D52D741F /* Build configuration list for PBXNativeTarget "GSLocalization" */ = {
+		DADDCD2749F19FA1A4D2EC46018E0C64 /* Build configuration list for PBXNativeTarget "InputValidators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				251EF5B5AF2F0B58909A47D339B2A430 /* Debug */,
-				EE36D47550C891DD2BD179AF3FAFDAD9 /* Release */,
+				EDC9ADECC126EC21B9F3A27C5A9A5D62 /* Debug */,
+				5E47483DFF900F8BBC0F4C01617CBC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91E9E9AD49C7176A9E4F427A0F66E41 /* Build configuration list for PBXNativeTarget "Pods-GSTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71214094AB7209F9D1422E8D6415D44 /* Debug */,
+				E3B56B75D63294AFB22B1FFE6235222F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -73,7 +73,7 @@
         }
     }
     if (self.validatorType == GSLengthValidatorTypeLessThan) {
-        if (text.length >= self.length) {
+        if (text.length <= self.length) {
             return YES;
         }
     }
