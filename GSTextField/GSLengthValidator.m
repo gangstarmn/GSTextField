@@ -91,8 +91,4 @@
 
 }
 
-
-git add .
-git commit -m "Initial commit"
-git tag 0.1.0
 @end
