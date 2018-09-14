@@ -6,12 +6,12 @@
 //  Copyright (c) 2015 PSSD - Daniele Bogo. All rights reserved.
 //
 
-#import "UIImage+Bundle.h"
+#import "UIImage+GSBundle.h"
 #import "GSTextField.h"
 
-@implementation UIImage (Bundle)
+@implementation UIImage (GSBundle)
 
-+ (UIImage *)imageInBundleNamed:(NSString *)name {
++ (UIImage *)imageInGSBundleNamed:(NSString *)name {
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000
     

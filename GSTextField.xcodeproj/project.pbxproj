@@ -16,8 +16,8 @@
 		6DE088891C80285600AF4551 /* GSNameValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE088841C80285600AF4551 /* GSNameValidator.m */; };
 		6DE0888A1C80285600AF4551 /* GSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE088851C80285600AF4551 /* GSTextField.m */; };
 		6DE0888D1C803BFB00AF4551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE0888C1C803BFB00AF4551 /* Images.xcassets */; };
-		6DE0890D1C80553000AF4551 /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE0890B1C80553000AF4551 /* UIImage+Bundle.h */; };
-		6DE0890E1C80553000AF4551 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0890C1C80553000AF4551 /* UIImage+Bundle.m */; };
+		6DE0890D1C80553000AF4551 /* UIImage+GSBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE0890B1C80553000AF4551 /* UIImage+GSBundle.h */; };
+		6DE0890E1C80553000AF4551 /* UIImage+GSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0890C1C80553000AF4551 /* UIImage+GSBundle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		6DE088851C80285600AF4551 /* GSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTextField.m; sourceTree = "<group>"; };
 		6DE0888B1C80288D00AF4551 /* GSTextFieldKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTextFieldKit.h; sourceTree = "<group>"; };
 		6DE0888C1C803BFB00AF4551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6DE0890B1C80553000AF4551 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
-		6DE0890C1C80553000AF4551 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		6DE0890B1C80553000AF4551 /* UIImage+GSBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GSBundle.h"; sourceTree = "<group>"; };
+		6DE0890C1C80553000AF4551 /* UIImage+GSBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GSBundle.m"; sourceTree = "<group>"; };
 		B356B0C3EB134A0679AF9E2E /* Pods-GSTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSTextField/Pods-GSTextField.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,8 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				6D82E3A01CD7166700F35100 /* GSTextField.bundle */,
-				6DE0890B1C80553000AF4551 /* UIImage+Bundle.h */,
-				6DE0890C1C80553000AF4551 /* UIImage+Bundle.m */,
+				6DE0890B1C80553000AF4551 /* UIImage+GSBundle.h */,
+				6DE0890C1C80553000AF4551 /* UIImage+GSBundle.m */,
 				6DE088811C80285600AF4551 /* GSLengthValidator.h */,
 				6DE088821C80285600AF4551 /* GSLengthValidator.m */,
 				6DE088831C80285600AF4551 /* GSNameValidator.h */,
@@ -112,7 +112,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE0890D1C80553000AF4551 /* UIImage+Bundle.h in Headers */,
+				6DE0890D1C80553000AF4551 /* UIImage+GSBundle.h in Headers */,
 				6DE0887A1C80271D00AF4551 /* GSTextField.h in Headers */,
 				6DE088881C80285600AF4551 /* GSNameValidator.h in Headers */,
 				6DE088861C80285600AF4551 /* GSLengthValidator.h in Headers */,
@@ -147,7 +147,7 @@
 		6DE0886D1C80271D00AF4551 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Gantulga;
 				TargetAttributes = {
 					6DE088751C80271D00AF4551 = {
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE088871C80285600AF4551 /* GSLengthValidator.m in Sources */,
-				6DE0890E1C80553000AF4551 /* UIImage+Bundle.m in Sources */,
+				6DE0890E1C80553000AF4551 /* UIImage+GSBundle.m in Sources */,
 				6DE0888A1C80285600AF4551 /* GSTextField.m in Sources */,
 				6DE088891C80285600AF4551 /* GSNameValidator.m in Sources */,
 			);
@@ -232,12 +232,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -287,12 +289,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

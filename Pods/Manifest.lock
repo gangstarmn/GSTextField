@@ -1,6 +1,6 @@
 PODS:
   - ATLog (0.0.2)
-  - GSLocalization (0.1.3):
+  - GSLocalization (0.1.4):
     - ATLog
     - GSLog
   - GSLog (0.0.2):
@@ -23,7 +23,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ATLog: e9c8afd11e4108381fdc862e9ccb793435f8c259
-  GSLocalization: 42206bb56f4a50f66d6c07b1e486bf9f3285dfc9
+  GSLocalization: d33c5cd99999f7926670c9e8d9028518e86d9171
   GSLog: 5038ec3d241c5a08098a1a7a19ed6a545652da4d
   InputValidators: b278d3042d23893533d688cfb1563370d4cb184e
   SCViewShaker: ebd2937cc5ac1de808164bcb5be2a23c8a6e7ab6

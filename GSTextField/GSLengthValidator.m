@@ -83,11 +83,16 @@
         }
     }
     if (self.validatorType == GSLengthValidatorTypeRange) {
-        if (text.length >= self.length && text.length <= self.maxLength) {
+        if (self.length <= text.length && text.length <= self.maxLength) {
             return YES;
         }
     }
     return [super validate:string error:error];
 
 }
+
+
+git add .
+git commit -m "Initial commit"
+git tag 0.1.0
 @end

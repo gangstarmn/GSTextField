@@ -9,7 +9,7 @@
 #import "GSTextField.h"
 #import "GSNameValidator.h"
 #import "GSLengthValidator.h"
-#import "UIImage+Bundle.h"
+#import "UIImage+GSBundle.h"
 #import <SCViewShaker/UIView+Shake.h>
 #import <GSLocalization/GSLocalization.h>
 
@@ -75,7 +75,7 @@ GSLocalizedString((key), bundleName)
 - (UIImageView *)errorBGImageView {
     if (!_errorBGImageView) {
         _errorBGImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 2, self.errorView.bounds.size.width-self.errorView.bounds.size.height-3, self.bounds.size.height-4)];
-        UIImage *errorBGImage = [[UIImage imageInBundleNamed:@"bs_errorBG"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
+        UIImage *errorBGImage = [[UIImage imageInGSBundleNamed:@"bs_errorBG"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
         _errorBGImageView.image = errorBGImage;
         _errorBGImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         _errorBGImageView.tintColor = [self mainTintColor];
@@ -87,7 +87,7 @@ GSLocalizedString((key), bundleName)
 - (UIButton *)errorButton {
     if (!_errorButton) {
         _errorButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_errorButton setImage:[UIImage imageInBundleNamed:@"bs_errorIcon"] forState:UIControlStateNormal];
+        [_errorButton setImage:[UIImage imageInGSBundleNamed:@"bs_errorIcon"] forState:UIControlStateNormal];
         _errorButton.tintColor = [self mainTintColor];
         _errorButton.frame = CGRectMake(self.errorView.bounds.size.width-self.errorView.bounds.size.height, 0, self.errorView.bounds.size.height, self.errorView.bounds.size.height);
         [_errorButton addTarget:self action:@selector(errorButtonAction) forControlEvents:UIControlEventTouchUpInside];

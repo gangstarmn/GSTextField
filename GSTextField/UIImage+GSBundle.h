@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Bundle)
+@interface UIImage (GSBundle)
 
 /**
  *  Returns an image in current bundle, compatible with framework
@@ -17,6 +17,6 @@
  *
  *  @return An UIImage
  */
-+ (UIImage *)imageInBundleNamed:(NSString *)name;
++ (UIImage *)imageInGSBundleNamed:(NSString *)name;
 
 @end
